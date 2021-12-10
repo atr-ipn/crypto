@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambiar Contraseña</title>
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/xd.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+    
+</head>
+<body>
+   <form action="CambiarContraseña.php" method="post">
+   <h1 class="animate__animated animate__backInLeft">Cambiar Contraseña</h1>
+   <p>Correo Electrónico <input type="email" placeholder="ingrese su correo" name="correo" required="" pattern="[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*@[a-zA-Z0-9_]+([.][a-zA-Z0-9_]+)*[.][a-zA-Z]{1,5}"></p>
+   <p>Nueva Contraseña <input minlength="8" type="password" placeholder="ingrese su contraseña" name="contraseña" required=""></p>
+   <p>Confirmar Contraseña <input type="password" placeholder="ingrese su contraseña" name="confirmar" required=""></p>
+   <input type="submit" value="Registrar">
+   <a href="index.html">¿Ya tienes una cuenta? Inicia Sesión.<i class="fas fa-angle-double-right"></i></a>
+   </form> 
+</body>
+</html>
